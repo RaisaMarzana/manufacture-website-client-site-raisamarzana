@@ -12,7 +12,7 @@ const MyOrders = () => {
     const email = user[0]?.email;
     const navigate = useNavigate();
 
-    const url = `http://localhost:5000/order/${email}`;
+    const url = `https://cryptic-everglades-66180.herokuapp.com/order/${email}`;
     const { data: orderInfo, isLoading, refetch } = useQuery('orderInfo', () => fetch(url, {
         headers: {
             authorization: `Bearer ${localStorage.getItem('accessToken')}`

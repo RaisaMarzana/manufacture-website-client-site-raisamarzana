@@ -14,7 +14,7 @@ const ManagerUsersRow = ({ user, refetch, index }) => {
         })
             .then((willDelete) => {
                 if (willDelete) {
-                    fetch(`http://localhost:5000/user/${email}`, {
+                    fetch(`https://cryptic-everglades-66180.herokuapp.com/user/${email}`, {
                         method: 'DELETE',
                         headers: {
                             'content-type': 'application/json',
@@ -41,7 +41,7 @@ const ManagerUsersRow = ({ user, refetch, index }) => {
         })
             .then((willDelete) => {
                 if (willDelete) {
-                    fetch(`http://localhost:5000/user/admin/${_id}`, {
+                    fetch(`https://cryptic-everglades-66180.herokuapp.com/user/admin/${_id}`, {
                         method: 'PUT',
                         headers: {
                             authorization: `Bearer ${localStorage.getItem('accessToken')}`

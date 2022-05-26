@@ -10,7 +10,7 @@ const AddReview = () => {
     const { register, formState: { errors }, handleSubmit, reset } = useForm();
     const user = useAuthState(auth)
 
-    const { data: toolsName, isLoading } = useQuery('toolsname', () => fetch('http://localhost:5000/tools', {
+    const { data: toolsName, isLoading } = useQuery('toolsname', () => fetch('https://cryptic-everglades-66180.herokuapp.com/tools', {
         headers: {
             'authorization': `Bearer ${localStorage.getItem('accessToken')}`
         }
@@ -29,7 +29,7 @@ const AddReview = () => {
             rating: data.rating,
             image: data.image
         };
-        fetch('http://localhost:5000/reviews', {
+        fetch('https://cryptic-everglades-66180.herokuapp.com/reviews', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

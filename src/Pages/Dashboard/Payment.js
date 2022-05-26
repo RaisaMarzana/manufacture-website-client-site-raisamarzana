@@ -10,7 +10,7 @@ const stripePromise = loadStripe('pk_test_51L3ghwLHDC7aBPd9LDKUIbafdNyPFjWd0FEEc
 
 const Payment = () => {
     const { _id } = useParams();
-    const { data: orderData, isLoading } = useQuery(['orderData', _id], () => fetch(`http://localhost:5000/orders/${_id}`, {
+    const { data: orderData, isLoading } = useQuery(['orderData', _id], () => fetch(`https://cryptic-everglades-66180.herokuapp.com/orders/${_id}`, {
         headers: {
             authorization: `Bearer ${localStorage.getItem('accessToken')}`
         },

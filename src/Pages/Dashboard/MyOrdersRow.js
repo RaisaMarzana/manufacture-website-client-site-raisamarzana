@@ -16,7 +16,7 @@ const MyOrdersRow = ({ order, refetch }) => {
         })
             .then((willDelete) => {
                 if (willDelete) {
-                    fetch(`http://localhost:5000/order/${id}`, {
+                    fetch(`https://cryptic-everglades-66180.herokuapp.com/order/${id}`, {
                         method: 'DELETE',
                         headers: {
                             'content-type': 'application/json',
