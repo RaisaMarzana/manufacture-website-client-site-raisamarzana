@@ -23,12 +23,12 @@ const Portfolio = () => {
                         <div class="bg-white p-4">
                             <div>
                                 <div class="mb-4">
-                                    <h1 class="text-2xl font-bold text-gray-700">Making a design system from scratch</h1>
+                                    <h1 class="text-2xl font-bold text-gray-700">BookStock</h1>
                                 </div>
 
                                 <div class="">
-                                    <span class="block mb-4 text-xl">12 Feb 20 20 | Design, Pattern</span>
-                                    <a href=""></a>
+                                    
+                                    <a href="https://bookstock-e3d76.web.app/">https://bookstock-e3d76.web.app/</a>
                                 </div>
                             </div>
                         </div>
@@ -37,26 +37,26 @@ const Portfolio = () => {
                     <div class="bg-white p-4 md:mt-0 mt-6">
                         <div>
                             <div class="mb-4">
-                                <h1 class="text-2xl font-bold text-gray-700">Creating pixel perfect icons in Figma</h1>
-                                <p class="hidden">View all</p>
+                                <h1 class="text-2xl font-bold text-gray-700">Beautician</h1>
+                               
                             </div>
 
                             <div class="">
-                                <span class="block mb-4 text-xl">12 Feb 20 20 | Design, Pattern</span>
-                                <a href=""></a>
+                                
+                                <a href="https://independent-service-prov-f4646.web.app/">https://independent-service-prov-f4646.web.app/</a>
                             </div>
                         </div>
                     </div>
                     <div class="bg-white p-4 md:mt-0 mt-6">
                         <div>
                             <div class="mb-4">
-                                <h1 class="text-2xl font-bold text-gray-700">Creating pixel perfect icons in Figma</h1>
-                                <p class="hidden">View all</p>
+                                <h1 class="text-2xl font-bold text-gray-700">Product Analysis</h1>
+                               
                             </div>
 
                             <div class="">
-                                <span class="block mb-4 text-xl">12 Feb 20 20 | Design, Pattern</span>
-                                <a href=""></a>
+                                
+                                <a href="https://product-analysis-raisamarzana.netlify.app/">https://product-analysis-raisamarzana.netlify.app/</a>
                             </div>
                         </div>
                     </div>
